@@ -1,0 +1,238 @@
+#HomePage main h1{
+   
+    margin-top: 250px;
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 6px 6px black;
+    
+    
+}
+
+#HomePage{
+    margin: 0px;
+    background-image: url(/2007591_Lab_Activity_1/Assets/graph-web-abstract-4k-hn-1920x1080.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+
+    flex-direction: column;
+    
+}
+
+footer{
+    margin-bottom: auto;
+}
+
+p{
+    color: white;
+}
+
+#Main_Header {
+    background-color: rgb(61, 107, 150); 
+    background: linear-gradient(90deg, #0B132B, #1C3D70, #3A6EA5);
+    border-style: inset;
+    border-width: 4px;
+}
+
+#Main_Header h1{
+    
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px 2px 3px white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 10px 0;
+}
+
+#Main_Header ul li a{
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+
+}
+
+#Main_Header nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+
+}
+
+#Main_Header nav{
+
+    gap: 20px;
+    justify-content: flex-end;
+}
+
+#Main_Header ul li a:hover{
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    color: black;
+
+}
+
+
+#About{
+    margin: 0px;
+    background-image: url(/2007591_Lab_Activity_1/Assets/white\ dot.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#MainAbout {
+    text-align: center;
+}
+
+#MainAbout section h1{
+    font-weight: bold;
+    color: black;
+    flex-direction: column;
+}
+
+#MainAbout section p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: black;
+}
+
+#AboutContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+
+    border: 2px solid black;
+}
+
+#image {
+    width: 30%;
+}
+
+#image img {
+    width: 200px;
+    height: auto;
+}
+
+#bio {
+    width: 50%;
+    text-align: left;
+}
+
+#bio p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: black;
+}
+
+#MainCourse{
+    text-align: center;
+}
+
+#MainCourse section{
+    border: 1.7px solid black;
+}
+
+#Course{
+    margin: 0px;
+    background-image: url(/2007591_Lab_Activity_1/Assets/white\ dot.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#MainCourse section h1{
+    font-weight: bold;
+    color: black;
+    flex-direction: column;
+}
+
+#MainCourse section p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: black;
+}
+
+#ProgrammingSection{
+    display: flex;
+    gap: 15px;
+    
+}
+
+#ProgrammingSection div{
+    flex: 1;
+}
+
+
+#Contact{
+    margin: 0px;
+    background-image: url(/2007591_Lab_Activity_1/Assets/white\ dot.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+form label{
+    color: black;
+}
+
+
+#utech{
+    border: 2px solid black;
+}
+
+
+@media (max-width: 600px) {
+
+    #Main_Header nav ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 0;
+    }
+
+    #Main_Header ul li a {
+        font-size: 14px;
+    }
+
+    
+    #AboutContent {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #MainCourse {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    #image {
+        width: 100%;
+    }
+
+    #bio {
+        width: 90%;
+        text-align: center;
+    }
+
+    #HomePage main h1 {
+        font-size: 45px;
+        margin-top: 150px;
+    }
+}
